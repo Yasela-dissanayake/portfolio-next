@@ -35,7 +35,7 @@ const Hero = () => {
               Hi, I&apos;m Yasela Dissanayake, a Fullstack Developer based in
               Sri Lanka.
             </p>
-            <a href="#about">
+            <a href="#projects">
               <MagicButton
                 title="Discover My Work"
                 icon={<FaLocationArrow />}

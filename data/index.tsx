@@ -1,8 +1,23 @@
+import { FaBeer, FaHome, FaProjectDiagram } from "react-icons/fa";
+import {
+  FaAddressCard,
+  FaPerson,
+  FaPhone,
+  FaReact,
+  FaRProject,
+  FaUserGroup,
+} from "react-icons/fa6";
+import { LuAppWindow } from "react-icons/lu";
+
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  {
+    name: "About",
+    link: "#about",
+    icon: <FaUserGroup />,
+  },
+  { name: "Projects", link: "#projects", icon: <LuAppWindow /> },
+  { name: "Testimonials", link: "#testimonials", icon: <FaAddressCard /> },
+  { name: "Contact", link: "#contact", icon: <FaPhone /> },
 ];
 
 export const gridItems = [
