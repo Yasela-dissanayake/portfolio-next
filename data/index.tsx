@@ -16,7 +16,7 @@ export const navItems = [
     icon: <FaUserGroup />,
   },
   { name: "Projects", link: "#projects", icon: <LuAppWindow /> },
-  { name: "Testimonials", link: "#testimonials", icon: <FaAddressCard /> },
+  { name: "Approach", link: "#approach", icon: <FaAddressCard /> },
   { name: "Contact", link: "#contact", icon: <FaPhone /> },
 ];
 
