@@ -12,6 +12,9 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        {/* <div className="h-[50vh] text-red-600 mt-24">
+          <h1>yasela</h1>
+        </div> */}
       </div>
     </main>
   );
